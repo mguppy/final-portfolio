@@ -1,16 +1,18 @@
 import React from 'react';
+import '../styles/About.css';
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      I'm Maryam Guppy and I am currently a student in the University of Texas boot camp studying the MERN
+      stack. I graduated from the University of Arkansas with a degree in Information Systems. Once I
+      graduated, I moved to Kansas City and worked for a company called Cerner, where I was an
+      implementation consultant. I later took an IT Audit job in Austin and have been in the audit field
+      for over 5 years. After much consideration, I have decided to switch my career focus to be more
+      technical and am really looking forward to finding a job in the Web Development field!
+      <img class="border border-primary portfolio-photo" src="./Images/portfolio-photo.jpeg" alt="maryam" />
       </p>
     </div>
   );
