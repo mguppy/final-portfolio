@@ -1,0 +1,23 @@
+.section-title {
+    font-family: 'Parsienne';
+    font-style: italic;
+    font-size: 48px;
+    color: #88ccef;
+}
+
+.project-photo {
+    border: 8px solid #88ccef;
+}
+
+#projects {
+    background-color: #dff1fd;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner {
+    width: 95%;
+    overflow: visible;
+}

@@ -4,7 +4,7 @@ import '../styles/About.css';
 export default function About() {
   return (
     <div id = "about">
-      <img className="portfolio-photo" src="./Images/portfolio-photo.jpeg" alt="maryam" />  
+      <img className="portfolio-photo" src="./Images/portfolio-pic.jpeg" alt="maryam" />  
       <section id = "about-section">
       <h1 className = "section-title">About Me</h1>
       <p id = "about-me-paragraph">

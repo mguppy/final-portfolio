@@ -1,11 +1,21 @@
 .portfolio-photo {
-    /* position: absolute; */
     margin-left: 300px;
     right: 0px;
     bottom: 0px;
-    width: 600px;
+    width: 425px;
     height: auto;
     border: 8px solid #88ccef;
+}
+
+.section-title {
+    font-family: 'Parsienne';
+    font-style: italic;
+    font-size: 48px;
+    color: #88ccef;
+}
+
+#about-me-paragraph {
+    font-family: 'Sarala';
 }
 
 #about {
