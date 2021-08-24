@@ -1,5 +1,26 @@
 .portfolio-photo {
-    position: absolute;
+    /* position: absolute; */
+    margin-left: 300px;
     right: 0px;
     bottom: 0px;
+    width: 600px;
+    height: auto;
+    border: 8px solid #88ccef;
+}
+
+#about {
+    background-color: #dff1fd;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#about-section {
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 680px;
+    margin-right: 300px;
 }

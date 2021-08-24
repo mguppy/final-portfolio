@@ -4,10 +4,12 @@
     font-size: 48px;
     padding-left: 50px;
     padding-right: 50px;
+    color: #88ccef;
   }
   
-  .nav-link {
+  .nav-tab {
     font-family: 'Sarala';
     font-size: 32px;
     padding: 30px;
+    color: #88ccef;
   }

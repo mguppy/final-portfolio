@@ -1,50 +1,17 @@
 import React from 'react';
-// import './NavTabs.css';
+import '../styles/NavTabs.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-//         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-//           <div class="navbar-nav">
-//             <a class="nav-item nav-link active" href="#">About Me <span class="sr-only"></span></a>
-//             <a class="nav-item nav-link" href="#">Portfolio</a>
-//             <header className = "navheader">Maryam Guppy</header>
-//             <a class="nav-item nav-link" href="#">Contact</a>
-//             <a class="nav-item nav-link disabled" href="#">Resume</a>
-//           </div>
-//         </div>
-//       </nav>
-//     </div>
-//   );
-// }
-
-const styles = {
-  navheader: {
-    FontFamily: 'Parsienne',
-    FontStyle: 'italic',
-    FontSize: '48px',
-    paddingleft: '50px',
-    paddingright: '50px'
-  },
-  
-  navlink: {
-    FontFamily: 'Sarala',
-    FontSize: '32px',
-    Padding: '30px'
-  }
-}
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <header style={styles.navheader}>Maryam Guppy</header>
+      <header className = "navheader">Maryam Guppy</header>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <ul className="nav nav-tabs">
-              <li style = {styles.navlink} className="nav-item">
+              <li className="nav-item nav-tab">
                 <a
                   href="#about"
                   onClick={() => handlePageChange('About')}
@@ -55,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-tab">
                 <a
                   href="#projects"
                   onClick={() => handlePageChange('Projects')}
@@ -65,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   Projects
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-tab">
                 <a
                   href="#resume"
                   onClick={() => handlePageChange('Resume')}
@@ -75,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   Resume
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-tab">
                 <a
                   href="#contact"
                   // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
