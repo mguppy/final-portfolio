@@ -49,7 +49,7 @@ function Contact() {
     <div id = "contact">
     <section id = "contact-section">
     <h1 className = "section-title">Contact Me</h1>
-      <p id = "contact-message">Greetings!  If you'd like to contact me for any reason, please fill in your name, email, and a reason for contacting.  Thanks!</p>
+      <p id = "contact-message">Greetings - if you'd like to contact me for any reason, please fill in your name, email, and a reason for contacting.  Thanks for reaching out!</p>
       <form className="form">
       <input
           value={name}
@@ -72,7 +72,7 @@ function Contact() {
           type="text"
           placeholder="Message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button id = "submit" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
