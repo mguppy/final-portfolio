@@ -30,6 +30,8 @@
     margin-right: 450px;
 }
 
-/* #button {
-    
-} */
+#submit {
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #dff1fd;
+}
