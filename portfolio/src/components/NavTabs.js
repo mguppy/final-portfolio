@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <header className = "navheader">Maryam Guppy</header>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <ul className="nav nav-tabs">
+            <ul className="nav">
               <li className="nav-item nav-tab">
                 <a
                   href="#about"
