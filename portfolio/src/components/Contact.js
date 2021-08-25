@@ -46,8 +46,10 @@ function Contact() {
   };
 
   return (
-    <div>
-      <p>Greetings!  If you'd like to contact me for any reason, please fill in your name, email, and a reason for contacting.  Thanks!</p>
+    <div id = "contact">
+    <section id = "contact-section">
+    <h1 className = "section-title">Contact Me</h1>
+      <p id = "contact-message">Greetings!  If you'd like to contact me for any reason, please fill in your name, email, and a reason for contacting.  Thanks!</p>
       <form className="form">
       <input
           value={name}
@@ -77,6 +79,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </section>
     </div>
   );
 }
