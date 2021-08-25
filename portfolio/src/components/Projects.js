@@ -52,21 +52,25 @@ export default function Projects() {
         //Cards for projects
         <>
             <Card>
+            <a href="https://brandonnorsworthy.github.io/pet-seeker/" target="_blank">
                 <Card.Img className = "project-photo" variant="top" src="./Images/pet-seeker.png" />
                 <Card.Body>
                     <Card.Text className="carousel-title">
                         Pet Seeker Application
                     </Card.Text>
                 </Card.Body>
+                </a>
             </Card>
             <br />
             <Card>
+            <a href="https://jobster-group-2.herokuapp.com/aboutus" target="_blank">
                 <Card.Img className = "project-photo" variant="top" src="./Images/jobster.png" />
                 <Card.Body>
                     <Card.Text className="carousel-title">
                         Jobster Application
                     </Card.Text>
                 </Card.Body>
+                </a>
             </Card>
         </>
     );
