@@ -1,5 +1,6 @@
 import React from 'react';
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
+import Card from "react-bootstrap/Card";
 import '../styles/Projects.css';
 
 export default function Projects() {
@@ -18,32 +19,55 @@ export default function Projects() {
         //     </p>
         //     </section>
         //   </div>
-        <Carousel class="carousel slide z-depth-1-half" data-interval="false">
-            <Carousel.Item>
-                <img
-                    className="d-block w-100 project-photo"
-                    // style={{ width: "95%"}}
-                    src="./Images/pet-seeker.png"
-                    alt="Pet Seeker Application"
-                />
-                <Carousel.Caption>
-                    <h3>Pet Seeker Application</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100 project-photo"
-                    // style={{ width: "100%", height: "100%"}}
-                    src="./Images/jobster.png"
-                    alt="Jobster Application"
-                />
+        // <Carousel class="carousel slide z-depth-1-half" data-interval="false">
+        //     <Carousel.Item>
+        //         <img
+        //             className="d-block w-100 project-photo"
+        //             // style={{ width: "95%"}}
+        //             src="./Images/pet-seeker.png"
+        //             alt="Pet Seeker Application"
+        //         />
+        //         <Carousel.Caption>
+        //             <section className = "carousel">
+        //             <h3 className = "carousel-title">Pet Seeker Application</h3>
+        //             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        //             </section>
+        //         </Carousel.Caption>
+        //     </Carousel.Item>
+        //     <Carousel.Item>
+        //         <img
+        //             className="d-block w-100 project-photo"
+        //             // style={{ width: "100%", height: "100%"}}
+        //             src="./Images/jobster.png"
+        //             alt="Jobster Application"
+        //         />
 
-                <Carousel.Caption>
-                    <h3>Jobster Application</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+        //         <Carousel.Caption>
+        //             <h3>Jobster Application</h3>
+        //             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        //         </Carousel.Caption>
+        //     </Carousel.Item>
+        // </Carousel>
+        
+        //Cards for projects
+        <>
+            <Card>
+                <Card.Img className = "project-photo" variant="top" src="./Images/pet-seeker.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Pet Seeker Application
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <br />
+            <Card>
+                <Card.Img className = "project-photo" variant="top" src="./Images/jobster.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Jobster Application
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </>
     );
 }

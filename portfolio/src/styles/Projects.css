@@ -3,6 +3,7 @@
     font-style: italic;
     font-size: 48px;
     color: #88ccef;
+    background-color: white;
 }
 
 .project-photo {
@@ -17,7 +18,9 @@
     align-items: center;
 }
 
-.carousel-inner {
-    width: 95%;
-    overflow: visible;
+.carousel-title {
+    font-family: 'Parsienne';
+    font-style: italic;
+    font-size: 48px;
+    color: #88ccef;
 }

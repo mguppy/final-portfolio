@@ -28,20 +28,6 @@
   color: #61dafb;
 }
 
-/* .navheader {
-  font-family: 'Parsienne';
-  font-style: italic;
-  font-size: 48px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.nav-link {
-  font-family: 'Sarala';
-  font-size: 32px;
-  padding: 30px;
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
