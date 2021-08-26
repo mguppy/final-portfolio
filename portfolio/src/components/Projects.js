@@ -72,6 +72,46 @@ export default function Projects() {
                 </Card.Body>
                 </a>
             </Card>
+            <Card>
+            <a href="https://mguppy.github.io/code-quiz/" target="_blank">
+                <Card.Img className = "project-photo" variant="top" src="./Images/code-quiz.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Code Quiz Application
+                    </Card.Text>
+                </Card.Body>
+                </a>
+            </Card>
+            <Card>
+            <a href="https://budget-tracker-maryam-uta.herokuapp.com/budg" target="_blank">
+                <Card.Img className = "project-photo" variant="top" src="./Images/budget-tracker.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Budget Tracker Application
+                    </Card.Text>
+                </Card.Body>
+                </a>
+            </Card>
+            <Card>
+            <a href="https://workout-tracker-maryam-uta.herokuapp.com/" target="_blank">
+                <Card.Img className = "project-photo" variant="top" src="./Images/workout-tracker.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Workout Tracker Application
+                    </Card.Text>
+                </Card.Body>
+                </a>
+            </Card>
+            <Card>
+            <a href="https://note-taker-maryam-uta.herokuapp.com/" target="_blank">
+                <Card.Img className = "project-photo" variant="top" src="./Images/note-taker.png" />
+                <Card.Body>
+                    <Card.Text className="carousel-title">
+                        Note Taker Application
+                    </Card.Text>
+                </Card.Body>
+                </a>
+            </Card>
         </>
     );
 }
