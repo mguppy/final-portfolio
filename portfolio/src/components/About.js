@@ -8,8 +8,7 @@ export default function About() {
       <section id = "about-section">
       <h1 className = "section-title">About Me</h1>
       <p id = "about-me-paragraph">
-      I'm Maryam Guppy and I am currently a student in the University of Texas boot camp studying the MERN
-      stack. I graduated from the University of Arkansas with a degree in Information Systems. Once I
+      I'm Maryam Guppy and I just recently graduated from the University of Texas web devlopment boot camp with a certificate in the full MERN stack. I graduated from the University of Arkansas with a degree in Information Systems. Once I
       graduated, I moved to Kansas City and worked for a company called Cerner, where I was an
       implementation consultant. I later took an IT Audit job in Austin and have been in the audit field
       for over 5 years. After much consideration, I have decided to switch my career focus to be more
