@@ -83,31 +83,11 @@ export default function Projects() {
                 </a>
             </Card>
             <Card>
-            <a href="https://budget-tracker-maryam-uta.herokuapp.com/budg" target="_blank">
-                <Card.Img className = "project-photo" variant="top" src="./Images/budget-tracker.png" />
+            <a href="https://www.eridium.chat/" target="_blank">
+                <Card.Img className = "project-photo" variant="top" src="./Images/eridium.png" />
                 <Card.Body>
                     <Card.Text className="carousel-title">
-                        Budget Tracker Application
-                    </Card.Text>
-                </Card.Body>
-                </a>
-            </Card>
-            <Card>
-            <a href="https://workout-tracker-maryam-uta.herokuapp.com/" target="_blank">
-                <Card.Img className = "project-photo" variant="top" src="./Images/workout-tracker.png" />
-                <Card.Body>
-                    <Card.Text className="carousel-title">
-                        Workout Tracker Application
-                    </Card.Text>
-                </Card.Body>
-                </a>
-            </Card>
-            <Card>
-            <a href="https://note-taker-maryam-uta.herokuapp.com/" target="_blank">
-                <Card.Img className = "project-photo" variant="top" src="./Images/note-taker.png" />
-                <Card.Body>
-                    <Card.Text className="carousel-title">
-                        Note Taker Application
+                        Eridium Application
                     </Card.Text>
                 </Card.Body>
                 </a>
