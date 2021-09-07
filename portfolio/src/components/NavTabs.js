@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/NavTabs.css';
+import Pdf from './Resume.pdf';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -33,8 +34,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item nav-tab">
-                <a
-                  href="https://docs.google.com/document/d/1dZbyr9amo2QRAr1ByxE0CS_4l9tWfhfwp3DHQVkteDQ/edit?usp=sharing" target="_blank"
+                <a href = {Pdf} target = "_blank"
+                // href="https://docs.google.com/document/d/1dZbyr9amo2QRAr1ByxE0CS_4l9tWfhfwp3DHQVkteDQ/edit?usp=sharing" target="_blank"
                   onClick={() => handlePageChange('About')}
                   // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                   className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
