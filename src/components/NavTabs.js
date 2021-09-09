@@ -43,7 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   Resume
                 </a>
               </li>
-              <li className="nav-item nav-tab">
+              {/* <li className="nav-item nav-tab">
                 <a
                   href="#contact"
                   // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -52,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
