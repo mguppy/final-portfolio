@@ -18,9 +18,11 @@
     align-items: center;
 }
 
-.carousel-title {
+.project-btn {
     font-family: 'Parsienne';
     font-style: italic;
-    font-size: 48px;
+    font-size: 25px;
     color: #88ccef;
+    padding: 25px;
+    text-decoration: none;
 }
